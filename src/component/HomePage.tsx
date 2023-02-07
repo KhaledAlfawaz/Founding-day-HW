@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function HomePage() {
+  
   return (
-    <div>
-      <h3 className='text' >أرررحب</h3>
+    <div className='color'>
+      <h3 className='text-homepage' >أرررحب</h3>
     <div className="grid-container">
   <a href="#" className="block block-1">
     <div className="image">

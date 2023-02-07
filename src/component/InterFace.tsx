@@ -9,15 +9,18 @@ function InterFace() {
 
     const LogIn =()=>{
         navigate("/logIn")  
-       
     }
+
+    const SignUp =()=>{
+      navigate("/signup")  
+  }
   return (
-    <div className='main'>
+    <div className='main color'>
 
         <h3 className='text'>مالحد منة، الله اللي عزنا</h3>
         <div className='btn'>
         <button onClick={LogIn}>تسجيل دخول</button>
-        <button> تسجيل جديد</button>
+        <button onClick={SignUp}> تسجيل جديد</button>
         </div>
       
     </div>
